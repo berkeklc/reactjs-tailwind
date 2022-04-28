@@ -11,7 +11,7 @@ function classNames(...classes) {
 function App() {
   return (
     <>
-    <Disclosure as="nav" className="bg-gray-800 z-10 relative">
+    <Disclosure as="nav" className="bg-black z-10 relative">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -97,7 +97,7 @@ function App() {
                   </Transition>
                
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush4.png')] bg-center bg-[length:153px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush4.png')] bg-center bg-[length:133px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -113,7 +113,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-center bg-[length:153px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-center bg-[length:112px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -129,7 +129,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-center bg-[length:153px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-center bg-[length:119px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -150,7 +150,7 @@ function App() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             
-              <Discord className="h-8 fill-white w-40	" />
+              <Discord className="h-8 fill-white w-28	" />
               <Twitter className="h-8 fill-white	" />
             
               </div>

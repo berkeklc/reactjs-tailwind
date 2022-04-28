@@ -13,6 +13,7 @@ class MediaComponent extends Component {
             width='100%'
             playing={true}
             height='100%'
+            loop={true}
             muted={true}
             autoplay={true}
             controls = {false} 
