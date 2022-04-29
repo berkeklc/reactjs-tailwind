@@ -38,7 +38,7 @@ function App() {
                       <a  
                         href="#"
                         className="text-white  hover:text-white',
-                        'px-3 py-2 rounded-md text-sm font-medium font-custom1"
+                        'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Collections
                       </a>
@@ -52,12 +52,12 @@ function App() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-40  shadow-lg py-1 bg-[#da60c5a3] ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcats
                           </a>
@@ -67,7 +67,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcat Kittens 
                           </a>
@@ -77,7 +77,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                           Cupcats rarity 
                           </a>
@@ -87,7 +87,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                          Kittens rarity 
                           </a>
@@ -97,33 +97,33 @@ function App() {
                   </Transition>
                
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-center bg-[length:133px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-center bg-[length:118px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
                         href="#"
                         className=" text-white relative  hover:text-white',
-                        'px-3 py-2 rounded-md text-sm font-medium font-custom1"
+                        'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Dashboard 
-                      <span className="font-custom2 underline-offset-5 absolute text-blue-500 bottom-0 right-0">soon</span>
+                      <span className="font-custom2 underline-offset-5 absolute text-[#548bee] bottom-0.5 -right-0.5 soon">soon</span>
 
                       </a>
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-center bg-[length:112px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-center bg-[length:101px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
                         href="#"
                         className="text-white relative   hover:text-white',
-                        'px-3 py-2 rounded-md text-sm font-medium font-custom1"
+                        'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Shelter
-                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0">soon</span>
+                      <span className="font-custom2 absolute text-blue-500 bottom-0.5 -right-1.5  soon">soon</span>
 
                       </a>
                     </Menu.Button>
@@ -136,10 +136,10 @@ function App() {
                       <a  
                         href="#"
                         className="text-white relative  hover:text-white',
-                        'px-3 py-2 rounded-md text-sm font-medium font-custom1"
+                        'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
-                       Cat's Mind 
-                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0">soon</span>
+                       Cat<span className="text-sm font-bold">'</span>s Mind 
+                      <span className="font-custom2 absolute text-blue-500 bottom-0.5 -right-1.5  soon">soon</span>
 
                       </a>
                     </Menu.Button>
@@ -150,8 +150,8 @@ function App() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             
-              <Discord className="h-8 fill-white w-28	" />
-              <Twitter className="h-8 fill-white	" />
+              <Twitter className="h-8 fill-[#548bee]	hover:fill-white" />
+              <Discord className="h-8 fill-[#548bee] hover:fill-white w-28	" />
             
               </div>
             </div>
@@ -166,7 +166,7 @@ function App() {
                       <a  
                         href="#"
                         className="text-white  hover:text-white',
-                        'px-3 py-2 rounded-md text-sm font-medium font-custom1"
+                        'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Collections
                       </a>
@@ -180,12 +180,12 @@ function App() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48  shadow-lg py-1 bg-fuchsia-500 bg-opacity-20 ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcats
                           </a>
@@ -195,7 +195,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcat Kittens 
                           </a>
@@ -205,7 +205,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                           Cupcats rarity 
                           </a>
@@ -215,7 +215,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                          Kittens rarity 
                           </a>
@@ -266,7 +266,7 @@ function App() {
                         className="text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
-                       Cat's Mind 
+                       Cat<span className="text-sm">'</span>s Mind  
                       <span className="font-custom2 absolute text-blue-500 bottom-0 right-0">soon</span>
 
                       </a>
