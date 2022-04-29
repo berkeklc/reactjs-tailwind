@@ -16,8 +16,9 @@ function App() {
     <>
 
 <ReactAudioPlayer
-  src="../sound.svg"
+  src="videos/sound.mp3"
   autoPlay
+  className='absolute z-20 bottom-0'
   controls
 />
     <Disclosure as="nav" className="bg-black z-10 relative">
