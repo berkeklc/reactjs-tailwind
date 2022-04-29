@@ -54,7 +54,7 @@ function App() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     <Menu.Items className="origin-top-right absolute -left-7 mt-2 w-40  shadow-lg py-1 ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
+                      <Menu.Item className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
@@ -64,7 +64,7 @@ function App() {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1 ">
+                      <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1 ">
                         {({ active }) => (
                           <a
                             href="#"
@@ -74,7 +74,7 @@ function App() {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
+                      <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
@@ -84,7 +84,7 @@ function App() {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
+                      <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
