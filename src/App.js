@@ -167,7 +167,7 @@ function App() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-            <Menu as="div" className="ml-3 py-2 px-2 relative  bg-center bg-[length:153px] bg-no-repeat">
+            <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush2.png')] bg-[center_left_-24px] bg-[length:166px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -237,7 +237,7 @@ function App() {
                   </Transition>
                
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative  bg-center bg-[length:133px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative   bg-[url('./assets/brush1.png')] bg-[center_left_-14px] bg-[length:141px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -253,7 +253,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-center bg-[length:112px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-[center_left_-16px] bg-[length:121px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -269,7 +269,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative  bg-center bg-[length:140px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative  bg-[url('./assets/brush4.png')] bg-[center_left_-18px] bg-[length:143px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
