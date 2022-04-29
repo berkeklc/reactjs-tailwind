@@ -31,7 +31,7 @@ function App() {
              
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
-                  <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush2.png')] bg-center bg-[length:153px] bg-no-repeat">
+                  <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush2.png')] bg-[center_bottom_2px] bg-[length:153px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -97,7 +97,7 @@ function App() {
                   </Transition>
                
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-center bg-[length:118px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush1.png')] bg-[center_bottom_4px] bg-[length:118px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -107,13 +107,13 @@ function App() {
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Dashboard 
-                      <span className="font-custom2 underline-offset-5 absolute text-[#548bee] bottom-0.5 -right-0.5 soon">soon</span>
+                      <span className="font-custom2 underline-offset-5 absolute text-[#548bee] bottom-0 -right-0.5 soon">soon</span>
 
                       </a>
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-center bg-[length:101px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush3.png')] bg-[center_bottom_6px] bg-[length:101px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -123,13 +123,13 @@ function App() {
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Shelter
-                      <span className="font-custom2 absolute text-blue-500 bottom-0.5 -right-1.5  soon">soon</span>
+                      <span className="font-custom2 absolute text-blue-500 bottom-0 -right-1.5  soon">soon</span>
 
                       </a>
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush4.png')] bg-center bg-[length:140px] bg-no-repeat">
+                <Menu as="div" className="ml-3 py-2 px-2 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_5px] bg-[length:140px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -139,7 +139,7 @@ function App() {
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
                        Cat<span className="text-sm font-bold">'</span>s Mind 
-                      <span className="font-custom2 absolute text-blue-500 bottom-0.5 -right-1.5  soon">soon</span>
+                      <span className="font-custom2 absolute text-blue-500 bottom-0 -right-1.5  soon">soon</span>
 
                       </a>
                     </Menu.Button>
