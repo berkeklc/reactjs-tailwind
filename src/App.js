@@ -4,6 +4,7 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ReactComponent as Discord } from './assets/discord.svg';
 import { ReactComponent as Twitter } from './assets/twitter.svg';
 import MediaComponent from './components/MediaComponent';
+import HiddenText from './components/HiddenText';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -30,7 +31,7 @@ function App() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
              
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex ">
+                  <div className="flex space-x-1">
                   <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush2.png')] bg-[center_bottom_2px] bg-[length:153px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
@@ -280,12 +281,10 @@ function App() {
     </Disclosure>
 
     <MediaComponent />
+    
+    <HiddenText />
 
-  <p className="absolute left-24 bottom-36 glow font-custom1 opacity-0 p-5 text-2xl		 ease-in duration-300 hover:opacity-100 hover:ease-in hover:duration-500 text-[#da5fc5]">CULTURE</p>
-  <p className="absolute right-24 bottom-48 glow font-custom1 opacity-0 p-5 text-2xl		 ease-in duration-300 hover:opacity-100 hover:ease-in hover:duration-500 text-[#da5fc5]">CORE</p>
-  <p className="absolute left-64 top-36 glow font-custom1 opacity-0 p-5 text-2xl		 ease-in duration-300 hover:opacity-100 hover:ease-in hover:duration-500 text-[#da5fc5]">CREATE</p>
-  <p className="absolute left-96 bottom-28 glow font-custom1 opacity-0 p-5 text-2xl		 ease-in duration-300 hover:opacity-100 hover:ease-in hover:duration-500 text-[#da5fc5]">CHARM</p>
-  <p className="absolute right-24 top-72 glow font-custom1 opacity-0 p-5 text-2xl		 ease-in duration-300 hover:opacity-100 hover:ease-in hover:duration-500 text-[#da5fc5]">CATALYST</p>
+ 
     </>
   )
 }
