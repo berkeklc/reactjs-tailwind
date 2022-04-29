@@ -281,6 +281,11 @@ function App() {
 
     <MediaComponent />
 
+  <p className="absolute left-24 bottom-36 font-custom1 opacity-0	hover:opacity-100 text-[#da5fc5]">CULTURE</p>
+  <p className="absolute right-24 bottom-48 font-custom1 opacity-0	hover:opacity-100 text-[#da5fc5]">CORE</p>
+  <p className="absolute left-64 top-36 font-custom1 opacity-0	hover:opacity-100 text-[#da5fc5]">CREATE</p>
+  <p className="absolute left-96 bottom-28 font-custom1 opacity-0	hover:opacity-100 text-[#da5fc5]">CHARM</p>
+  <p className="absolute right-24 top-68 font-custom1 opacity-0	hover:opacity-100 text-[#da5fc5]">CATALYST</p>
     </>
   )
 }
