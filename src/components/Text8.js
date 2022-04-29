@@ -13,7 +13,7 @@ class Text8 extends Component {
     {
         if (this.state.status === 'CAPTURE')
         {
-            this.setState({message : 'When you find me, find the fish, to show what you succeed', status: 'CAPTURE'})
+            this.setState({message : 'Battles come with rewards, find the fish.', status: 'CAPTURE'})
         }
         else
         {
