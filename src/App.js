@@ -5,6 +5,8 @@ import { ReactComponent as Discord } from './assets/discord.svg';
 import { ReactComponent as Twitter } from './assets/twitter.svg';
 import MediaComponent from './components/MediaComponent';
 import HiddenText from './components/HiddenText';
+import ReactAudioPlayer from 'react-audio-player';
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -12,6 +14,12 @@ function classNames(...classes) {
 function App() {
   return (
     <>
+
+<ReactAudioPlayer
+  src="../sound.svg"
+  autoPlay
+  controls
+/>
     <Disclosure as="nav" className="bg-black z-10 relative">
       {({ open }) => (
         <>
