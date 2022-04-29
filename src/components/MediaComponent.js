@@ -6,6 +6,7 @@ class MediaComponent extends Component {
   
   render() {
     return (
+      
       <div className=" absolute z-1 top-0 left-0 sm:absolute xs:relative">
            <ReactPlayer
             className='react-player  hidden xs:block   fixed-bottom'
@@ -15,7 +16,7 @@ class MediaComponent extends Component {
             height='100%'
             loop={true}
             muted={true}
-            autoplay={true}
+            autoPlay={true}
             controls = {false} 
 
             />
@@ -27,7 +28,7 @@ class MediaComponent extends Component {
             height='100%'
             loop={true}
             muted={true}
-            autoplay={true}
+            autoPlay={true}
             controls = {false} 
 
             />

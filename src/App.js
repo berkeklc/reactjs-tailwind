@@ -281,7 +281,6 @@ function App() {
     </Disclosure>
 
     <MediaComponent />
-    
     <HiddenText />
 
  
