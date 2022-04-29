@@ -11,6 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .glow{
+    animation: Glow 2s ease-in-out infinite alternate;
+  }
 }
 
 .App-header {
