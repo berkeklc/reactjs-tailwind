@@ -7,7 +7,7 @@ class MediaComponent extends Component {
   render() {
     return (
       
-      <div className=" absolute z-1 top-0 left-0 sm:absolute xs:relative">
+      <div className=" w-full absolute z-1 top-0 left-0 sm:absolute xs:relative">
            <ReactPlayer
             className='react-player  hidden xs:block   fixed-bottom'
             url= 'videos/videoweb.mp4'

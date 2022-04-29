@@ -37,7 +37,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -57,7 +57,8 @@ function App() {
                       <Menu.Item className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://opensea.io/collection/cupcatsofficial"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcats
@@ -67,7 +68,8 @@ function App() {
                       <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1 ">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://opensea.io/collection/cupcatkittens"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                              Kittens 
@@ -77,7 +79,8 @@ function App() {
                       <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="_https://catsinthecups.com/rarity/)"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                           Cupcats rarity 
@@ -87,7 +90,8 @@ function App() {
                       <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://kittens.catsinthecups.com/rarity/"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                          Kittens rarity 
@@ -103,7 +107,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className=" text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -114,12 +118,12 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush3.png')] bg-[center_bottom_6px] bg-[length:101px] bg-no-repeat">
+                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush3.png')] bg-[center_bottom_5px] bg-[length:101px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white relative   hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -130,12 +134,12 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_5px] bg-[length:140px] bg-no-repeat">
+                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_4px] bg-[length:140px] bg-no-repeat">
                   <div>
-                  <Menu.Button className="">
+                  <Menu.Button className=""> 
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -150,9 +154,12 @@ function App() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            
-              <Twitter className="h-8 fill-[#548bee]	hover:fill-white" />
-              <Discord className="h-8 fill-[#548bee] hover:fill-white w-28	" />
+            <a target="_blank" href="https://twitter.com/catsinthecups/" >
+            <Twitter className="h-8 fill-[#548bee]	hover:fill-white" />
+            </a>
+            <a target="_blank" href="https://discord.gg/cupcats" >
+            <Discord className="h-8 fill-[#548bee] hover:fill-white w-28	" />
+            </a>
             
               </div>
             </div>
@@ -165,7 +172,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -181,41 +188,45 @@ function App() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right relative left-0 mt-2 w-48  shadow-lg py-1 bg-fuchsia-500 bg-opacity-20 ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
+                    <Menu.Items className="origin-top-right relative left-0 mt-2 w-48  shadow-lg py-1  ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Item className="bg-[#da60c5a3] block text-white font-custom1 p-1 text-sm mb-0.5 ">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://opensea.io/collection/cupcatsofficial"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcats
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item className="bg-[#da60c5a3] block text-white font-custom1 p-1 text-sm mb-0.5 ">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://opensea.io/collection/cupcatkittens"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
-                            Cupcat Kittens 
+                           Kittens 
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item className="bg-[#da60c5a3] block text-white font-custom1 p-1 text-sm mb-0.5 ">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://catsinthecups.com/rarity"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                           Cupcats rarity 
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item className="bg-[#da60c5a3] block text-white font-custom1 p-1 text-sm mb-0.5 ">
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://kittens.catsinthecups.com/rarity/"
+                            target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                          Kittens rarity 
@@ -231,7 +242,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className=" text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
@@ -247,7 +258,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white relative   hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
@@ -263,7 +274,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="#"
+                        href="javascript:void(0)"
                         className="text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
