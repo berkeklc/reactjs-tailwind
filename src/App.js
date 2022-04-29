@@ -32,7 +32,7 @@ function App() {
              
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-1">
-                  <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush2.png')] bg-[center_bottom_2px] bg-[length:153px] bg-no-repeat">
+                  <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush2.png')] bg-[center_bottom_0px] bg-[length:166px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -102,7 +102,7 @@ function App() {
                   </Transition>
                
                 </Menu>
-                <Menu as="div" className="m-0  py-2 px-6 relative bg-[url('./assets/brush1.png')] bg-[center_bottom_4px] bg-[length:118px] bg-no-repeat">
+                <Menu as="div" className="m-0  py-2 px-6 relative bg-[url('./assets/brush1.png')] bg-[center_bottom_2px] bg-[length:132px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -118,7 +118,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush3.png')] bg-[center_bottom_5px] bg-[length:101px] bg-no-repeat">
+                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush3.png')] bg-[center_bottom_3px] bg-[length:128px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
@@ -134,7 +134,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_4px] bg-[length:140px] bg-no-repeat">
+                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_3px] bg-[length:147px] bg-no-repeat">
                   <div>
                   <Menu.Button className=""> 
                       <span className="sr-only">Open user menu</span>
