@@ -53,8 +53,8 @@ function App() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-40  shadow-lg py-1 bg-[#da60c5a3] ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
+                    <Menu.Items className="origin-top-right absolute -left-7 mt-2 w-40  shadow-lg py-1 ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Item className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
@@ -64,17 +64,17 @@ function App() {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1 ">
                         {({ active }) => (
                           <a
                             href="#"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
-                            Cupcat Kittens 
+                             Kittens 
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
@@ -84,7 +84,7 @@ function App() {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      <Menu.Item  className="bg-[#da60c5a3] mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
                             href="#"
