@@ -180,12 +180,12 @@ function App() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48  shadow-lg py-1 bg-fuchsia-500 bg-opacity-20 ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="origin-top-right absolute left-0 mt-2 w-48  shadow-lg py-1 bg-fuchsia-500 bg-opacity-20 ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <Menu.Item>
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcats
                           </a>
@@ -195,7 +195,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                             Cupcat Kittens 
                           </a>
@@ -205,7 +205,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                           Cupcats rarity 
                           </a>
@@ -215,7 +215,7 @@ function App() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-white')}
+                            className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
                          Kittens rarity 
                           </a>
@@ -235,7 +235,7 @@ function App() {
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
                        Dashboard 
-                      <span className="font-custom2 underline-offset-5 absolute text-blue-500 bottom-0 right-0">soon</span>
+                      <span className="font-custom2 underline-offset-5 absolute text-blue-500 bottom-0 right-0 soon">soon</span>
 
                       </a>
                     </Menu.Button>
@@ -251,7 +251,7 @@ function App() {
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
                        Shelter
-                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0">soon</span>
+                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0 soon">soon</span>
 
                       </a>
                     </Menu.Button>
@@ -267,7 +267,7 @@ function App() {
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
                        Cat<span className="text-sm">'</span>s Mind  
-                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0">soon</span>
+                      <span className="font-custom2 absolute text-blue-500 bottom-0 right-0 soon">soon</span>
 
                       </a>
                     </Menu.Button>
