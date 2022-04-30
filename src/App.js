@@ -4,23 +4,20 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ReactComponent as Discord } from './assets/discord.svg';
 import { ReactComponent as Twitter } from './assets/twitter.svg';
 import MediaComponent from './components/MediaComponent';
+import Sound from './components/Sound';
 import HiddenText from './components/HiddenText';
-import ReactAudioPlayer from 'react-audio-player';
+
 
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
+
 function App() {
+  
   return (
     <>
-
-<ReactAudioPlayer
-  src="videos/sound.mp3"
-  autoPlay
-  className='absolute z-20 bottom-0'
-  controls
-/>
+<Sound> </Sound>
     <Disclosure as="nav" className="bg-black z-10 relative">
       {({ open }) => (
         <>
