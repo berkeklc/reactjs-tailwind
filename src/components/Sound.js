@@ -12,7 +12,6 @@ class Sound extends Component {
     autoPlay: true,
     loop: true,
   };
-  
   playPause = () => {
 
     let isPlaying = this.state.isPlaying;
@@ -24,7 +23,7 @@ class Sound extends Component {
     }
     this.setState({ isPlaying: !isPlaying });
   };
- 
+
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">

@@ -10,7 +10,7 @@ class MediaComponent extends Component {
       <div className=" w-full absolute z-1 top-0 left-0 sm:absolute xs:relative">
            <ReactPlayer
             className='react-player  hidden xs:block   fixed-bottom'
-            url= 'videos/video5web.mp4'
+            url= 'videos/videomobile.mp4'
             width='100%'
             playing={true}
             height='100%'
@@ -22,7 +22,7 @@ class MediaComponent extends Component {
             />
         <ReactPlayer
             className='react-player  hidden md:block fixed-bottom'
-            url= 'videos/videomobile.mp4'
+            url= 'videos/video5web.mp4'
             width='100%'
             playing={true}
             height='100%'
