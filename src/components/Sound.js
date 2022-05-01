@@ -24,7 +24,7 @@ class Sound extends Component {
     }
     this.setState({ isPlaying: !isPlaying });
   };
-
+ 
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
