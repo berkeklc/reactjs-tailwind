@@ -85,7 +85,7 @@ function App() {
                       <Menu.Item  className="bg-[#da60c5a3] text-sm mb-0.5 block text-white text-center font-custom1">
                         {({ active }) => (
                           <a
-                            href="_https://catsinthecups.com/rarity/)"
+                            href="https://catsinthecups.com/rarity/)"
                             target="_blank"
                             className={classNames(active ? 'bg-black' : '', 'block px-4 py-2 text-sm text-white')}
                           >
