@@ -149,13 +149,10 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
   background-repeat:no-repeat;
   background-position:center;
   background-size:20px;
-  background-color: gainsboro;
 }
 .play {
-  background-image: url(assets/sound.svg);
 }
 .pause {
-   background-image: url(assets/sound.svg)!important;
 }
 @keyframes Glow {
   from {

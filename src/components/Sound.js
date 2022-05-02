@@ -42,13 +42,15 @@ class Sound extends Component {
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
-        
+  
        <audio id="track" className="audios"
-autoPlay
 loop
-controls
 src={song} 
       />
+            
+<div id="player-container">
+  <div id="play-pause" className="play"> <Twitter className="h-8 fill-[#548bee]	hover:fill-white" /></div>
+</div>
       </div>
     );
   }
