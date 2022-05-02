@@ -31,7 +31,7 @@ code {
   animation: Glow 2s ease-in-out infinite alternate;
 }
 .colors{
-  animation: Colors 2s ease-in-out infinite alternate;
+  animation: Colors 1s ease-in-out infinite alternate;
 }
 .audios{
  background-color: black;
@@ -165,11 +165,11 @@ audio::-webkit-media-controls-toggle-closed-captions-button{
 }
 @keyframes Colors {
   from {
-    color:#da5fc5;
+    fill:#da5fc5;
   }
   
   to {
-    color:#fff;
+    fill:#fff;
   }
 }
 @keyframes App-logo-spin {

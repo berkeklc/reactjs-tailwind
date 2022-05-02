@@ -13,32 +13,7 @@ class Sound extends Component {
     loop: true,
   };
   
-  playPause = () => {
-
-    let isPlaying = this.state.isPlaying;
-    this.state.loop = true;
-    if (isPlaying) {
-      this.state.audio.play();
-    } else {
-      this.state.audio.pause();
-    }
-    this.setState({ isPlaying: !isPlaying });
-  };
-  handleKeyDown = e => {
-    if(e.keyCode === this.props.keyTrigger.charCodeAt()) {
-      this.audio.play()
-      this.audio.currentTime = 0
-      this.props.handleDisplay(this.props.id)
-      this.audio.volume = 0.2
-    }
-  }
   
-  handleClick = () => {
-    this.audio.play()
-    this.audio.currentTime = 0
-    this.props.handleDisplay(this.props.id)
-    this.audio.volume = 0.2
-  }
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
@@ -49,7 +24,7 @@ src={song}
       />
             
 <div id="player-container">
-  <div id="play-pause" className="play"> <Twitter className="h-8 fill-[#548bee]	hover:fill-white" /></div>
+  <div id="play-pause" className="play"> <Twitter className="colors h-8 fill-[#548bee]	hover:fill-white" /></div>
 </div>
       </div>
     );
