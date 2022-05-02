@@ -43,7 +43,6 @@ class Sound extends Component {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
        <audio class="audios"
-autoPlay
 loop
 controls
 src={song} 
