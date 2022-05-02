@@ -12,6 +12,7 @@ class Sound extends Component {
     autoPlay: true,
     loop: true,
   };
+  
   playPause = () => {
 
     let isPlaying = this.state.isPlaying;
@@ -23,14 +24,30 @@ class Sound extends Component {
     }
     this.setState({ isPlaying: !isPlaying });
   };
-
+  handleKeyDown = e => {
+    if(e.keyCode === this.props.keyTrigger.charCodeAt()) {
+      this.audio.play()
+      this.audio.currentTime = 0
+      this.props.handleDisplay(this.props.id)
+      this.audio.volume = 0.2
+    }
+  }
+  
+  handleClick = () => {
+    this.audio.play()
+    this.audio.currentTime = 0
+    this.props.handleDisplay(this.props.id)
+    this.audio.volume = 0.2
+  }
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
-
-        <button  onClick={this.playPause}>
-        <p className="colors font-custom1 text-white hover:text-blue-600">press x</p>
-        </button>
+       <audio class="audios"
+autoPlay
+loop
+controls
+src={song} 
+      />
       </div>
     );
   }
