@@ -37,7 +37,7 @@ function App() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
              
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-1">
+                  <div className="flex ">
                   <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush2.png')] bg-[center_bottom_0px] bg-[length:166px] bg-no-repeat">
                   <div>
                   <Menu.Button className="">
@@ -140,7 +140,7 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 ml-5 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_3px] bg-[length:147px] bg-no-repeat">
+                <Menu as="div" className="m-0 ml-4 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_3px] bg-[length:147px] bg-no-repeat">
                   <div>
                   <Menu.Button className=""> 
                       <span className="sr-only">Open user menu</span>
