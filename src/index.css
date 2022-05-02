@@ -42,8 +42,11 @@ outline: 0;
 box-shadow: none;
 position: absolute;
 border-radius: 0;
-bottom: -15px;
+bottom: -5px;
 left: -30px;
+}
+audio::-internal-media-controls-overflow-button {
+  display:none;
 }
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
   background-color: red;
@@ -127,6 +130,28 @@ audio::-webkit-media-controls-return-to-realtime-button{
 
 audio::-webkit-media-controls-toggle-closed-captions-button{
   display: none;
+}
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height:40px;
+  width: 40px;
+  padding: 12px 18px;
+  z-index: 2;
+    background-image: url(assets/sound.svg);
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:20px;
+  background-color: gainsboro;
+}
+.play {
+  background-image: url(assets/sound.svg);
+}
+.pause {
+   background-image: url(assets/sound.svg)!important;
 }
 @keyframes Glow {
   from {

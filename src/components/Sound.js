@@ -42,8 +42,8 @@ class Sound extends Component {
   render() {
     return (
       <div className="absolute z-[9999] bottom-10 left-10">
-          
-       <audio class="audios"
+        
+       <audio id="track" className="audios"
 autoPlay
 loop
 controls

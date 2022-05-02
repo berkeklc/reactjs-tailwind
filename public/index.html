@@ -62,13 +62,32 @@
         }
       }
     </style>
-    <script>
-      window.onload = function() {
-        var context = new AudioContext();
-      }
-      </script>
+   
   </head>
-  <body onload="document.getElementsByTagName('audio')[0].play()">
+  <script>
+    var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+    if (track.paused) {
+        track.pause();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "play";
+    } else { 
+        track.play();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "pause";
+    }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+  </script>
+  <body onclick="document.getElementsByTagName('audio')[0].play()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <div class="loader-wrapper">
@@ -86,4 +105,5 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  
 </html>
