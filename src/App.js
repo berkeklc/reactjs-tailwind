@@ -43,7 +43,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -113,7 +113,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className=" text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -129,7 +129,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white relative   hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -140,12 +140,12 @@ function App() {
                     </Menu.Button>
                   </div>
                 </Menu>
-                <Menu as="div" className="m-0 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_3px] bg-[length:147px] bg-no-repeat">
+                <Menu as="div" className="m-0 ml-5 py-2 px-6 relative bg-[url('./assets/brush4.png')] bg-[center_bottom_3px] bg-[length:147px] bg-no-repeat">
                   <div>
                   <Menu.Button className=""> 
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -178,7 +178,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white  hover:text-white',
                         'px-3 py-2 rounded-md text-xs font-medium font-custom1"
                       >
@@ -248,7 +248,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className=" text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
@@ -264,7 +264,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white relative   hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >
@@ -280,7 +280,7 @@ function App() {
                   <Menu.Button className="">
                       <span className="sr-only">Open user menu</span>
                       <a  
-                        href="javascript:void(0)"
+                        href="#"
                         className="text-white relative  hover:text-white',
                         'px-3 py-2 rounded-md text-sm font-medium font-custom1"
                       >

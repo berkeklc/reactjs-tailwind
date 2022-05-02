@@ -45,7 +45,11 @@ border-radius: 0;
 bottom: -5px;
 left: -30px;
 }
-audio::-internal-media-controls-overflow-button {
+input[type="button" i] {
+  display:none;
+}
+div > div:nth-child(2) > div > input[type=button]:nth-child(7){display:none;}
+audio::-webkit-internal-media-controls-overflow-button {
   display:none;
 }
 audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
